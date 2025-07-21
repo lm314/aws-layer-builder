@@ -2,6 +2,8 @@ version: 0.1
 
 phases:
   install:
+    runtime-versions:
+      python: 3.13
     commands:
       - echo "Using Python version:"
       - python3 --version  # Should match your Lambda runtime (e.g., Python 3.13)
